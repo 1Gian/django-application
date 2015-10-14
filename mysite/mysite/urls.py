@@ -17,5 +17,6 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^s','grown,views,index', name 'grown')
     url(r'^admin/', include(admin.site.urls)),
 ]
